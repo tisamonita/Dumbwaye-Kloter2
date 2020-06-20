@@ -20,7 +20,7 @@ else {
                 <img src="<?=$tampil['images']; ?>" >
             <p> Judul : <?= $tampil['title']; ?><br>  Harga : <?= $tampil['price']; ?>
             <br> Genre : <?= $tampil['name']; ?> <br> Stok  : <?= $tampil['stock']; ?></p>
-           <a href="beli.php&id=<?= $tampil['id_trx']; ?>"> <button type="button" class="btn btn-warning">
+           <a href="beli.php?id=<?= $tampil['id_trx']; ?>"> <button type="button" class="btn btn-warning">
         Beli
         </button> </a>
         </div>
